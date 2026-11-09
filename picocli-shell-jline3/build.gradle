@@ -13,7 +13,7 @@ java {
 }
 
 dependencies {
-    api                rootProject
+    api                "info.picocli:picocli:$projectVersion"
     api                supportDependencies.jline3reader
     api                supportDependencies.jline3console
 }
