@@ -4,31 +4,22 @@
   "gradle": "8.14",
   "passed": true,
   "upstream_commit": "10509c0af89aa3254ca14ba90d9b3b7168e57994",
+  "sibling_checkouts": {
+    "picocli-core": "14bd6953f7500618052b241469ab43c2fe260158"
+  },
   "tests": {
-    "tests": 2281,
+    "tests": 0,
     "failures": 0,
     "errors": 0,
-    "skipped": 32
+    "skipped": 0
   },
-  "tests_by_module": {
-    "core": {
-      "tests": 2281,
-      "failures": 0,
-      "errors": 0,
-      "skipped": 32
-    }
-  },
+  "tests_by_module": {},
   "artifacts": [
-    "build/libs/picocli-4.7.8-SNAPSHOT.jar",
-    "build/libs/picocli-4.7.8-SNAPSHOT-javadoc.jar",
-    "build/libs/picocli-4.7.8-SNAPSHOT-sources.jar",
-    "build/libs/picocli-4.7.8-SNAPSHOT-tests.jar",
-    "build/libs/picocli-4.7.8-SNAPSHOT-test-sources.jar",
-    "picocli-shell-jline3/build/libs/picocli-shell-jline3-4.7.8-SNAPSHOT.jar",
     "picocli-shell-jline3/build/libs/picocli-shell-jline3-4.7.8-SNAPSHOT-javadoc.jar",
     "picocli-shell-jline3/build/libs/picocli-shell-jline3-4.7.8-SNAPSHOT-sources.jar",
+    "picocli-shell-jline3/build/libs/picocli-shell-jline3-4.7.8-SNAPSHOT-test-sources.jar",
     "picocli-shell-jline3/build/libs/picocli-shell-jline3-4.7.8-SNAPSHOT-tests.jar",
-    "picocli-shell-jline3/build/libs/picocli-shell-jline3-4.7.8-SNAPSHOT-test-sources.jar"
+    "picocli-shell-jline3/build/libs/picocli-shell-jline3-4.7.8-SNAPSHOT.jar"
   ],
-  "scope": "All sources and tests included in the root Gradle build; upstream conditional skips retained."
+  "scope": "This repository's modules and tests; picocli core tests run in picocli-core. Upstream conditional skips retained."
 }
